@@ -12,12 +12,12 @@ const Review = () => {
   }, []);
   return (
     <Container>
-      <h1 className="text-center fw-bold my-5">Review</h1>
+      <h1 className="text-center text-dark fw-bold my-5">Customer Review</h1>
 
       <Row>
         {reviews.map((review) => (
           <Col key={review._id} lg={3} sm={12}>
-            <div className="border p-3">
+            <div className="border p-3 bg-dark text-warning rounded">
               <h4>{review.name}</h4>
               <p>{review.email}</p>
               <div>

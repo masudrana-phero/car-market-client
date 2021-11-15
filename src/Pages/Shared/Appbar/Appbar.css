@@ -1,0 +1,11 @@
+.font-style{
+    color: brown;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text-style{
+    font-style: italic;
+    font-size: 30px; 
+    font-weight: bold;
+}

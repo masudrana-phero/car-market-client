@@ -8,6 +8,8 @@ import Login from "./Pages/Login/Login/Login";
 import PrivetRoute from "./Pages/Login/PrivetRoute/PrivetRoute";
 import Dashboard from "./Pages/Dashboard/Dashboard/Dashboard";
 import Explore from "./Pages/Explore/Explore";
+import Contact from "./Pages/Home/Contact/Contact";
+import { NotFound } from "http-errors";
 
 const App = () => {
   return (
@@ -31,6 +33,9 @@ const App = () => {
           </Route>
           <PrivetRoute path="/dashboard">
             <Dashboard></Dashboard>
+          </PrivetRoute>
+          <PrivetRoute path="/contact">
+            <Contact></Contact>
           </PrivetRoute>
           <PrivetRoute path="/booking/:id">
             <Booking></Booking>

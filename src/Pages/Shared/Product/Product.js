@@ -7,7 +7,7 @@ const Product = ({ product }) => {
   const { _id, name, img, price, description } = product;
   return (
     <Col sm={12} lg={4}>
-      <Card>
+      <Card className="rounded mb-4">
         <Card.Img variant="top" src={img} className="product-image" />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
