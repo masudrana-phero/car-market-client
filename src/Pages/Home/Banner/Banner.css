@@ -1,0 +1,9 @@
+.banner-carousel-image {
+  height: 500px;
+}
+.carousel-text-color .carousel-caption {
+  color: rgb(0, 3, 12) !important;
+}
+.carousel-text-color .carousel-caption h3 {
+  font-weight: bold;
+}
